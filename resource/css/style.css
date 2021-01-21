@@ -114,9 +114,41 @@ nav ul li a{
 .parteners{
     background-color: #fff7d6;
 }
+.parteners .child img{
+    height: 200px;
+}
 footer{
     background-color: #fff7d6;
 }
 .row .card3{
     background-color: #089511;
+    border-radius: 25px;
+    height: 570px;
+}
+.card-footer .div1 i{
+    background-color: #ffffff;
+    border-radius:50%;
+    margin-left: 60px;
+    font-size: 40px;
+    color: #000000;
+}
+@media screen and (min-width:300px){
+    .swiper-slide img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .card-footer .div1 i{
+        background-color: #ffffff;
+        border-radius:50%;
+        margin-left: 30px;
+        font-size: 40px;
+        color: #000000;
+    }
+    .id{
+        color:#073EF5;
+    }
+    .parteners .child img{
+        width: 100%;
+        height: 100px;
+    }
 }
